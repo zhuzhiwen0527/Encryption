@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED87CD151D214FC7007CD4B7 /* base64Encode.m in Sources */ = {isa = PBXBuildFile; fileRef = ED87CD141D214FC7007CD4B7 /* base64Encode.m */; };
+		EDB48B101D220AEE009440C9 /* RSAEncryption.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB48B0F1D220AEE009440C9 /* RSAEncryption.m */; };
+		EDB48B131D220B52009440C9 /* MD5Encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB48B121D220B52009440C9 /* MD5Encryption.m */; };
+		EDB48B2C1D222004009440C9 /* private_key.pem in Resources */ = {isa = PBXBuildFile; fileRef = EDB48B271D222003009440C9 /* private_key.pem */; };
+		EDB48B2D1D222004009440C9 /* public_key.der in Resources */ = {isa = PBXBuildFile; fileRef = EDB48B281D222003009440C9 /* public_key.der */; };
+		EDB48B2E1D222004009440C9 /* rsaCert.crt in Resources */ = {isa = PBXBuildFile; fileRef = EDB48B291D222004009440C9 /* rsaCert.crt */; };
+		EDB48B2F1D222004009440C9 /* rsaerReq.csr in Resources */ = {isa = PBXBuildFile; fileRef = EDB48B2A1D222004009440C9 /* rsaerReq.csr */; };
+		EDB48B301D222004009440C9 /* private_key.p12 in Resources */ = {isa = PBXBuildFile; fileRef = EDB48B2B1D222004009440C9 /* private_key.p12 */; };
+		EDF3AAB91D21261100C65673 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF3AAB81D21261100C65673 /* main.m */; };
+		EDF3AABC1D21261100C65673 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF3AABB1D21261100C65673 /* AppDelegate.m */; };
+		EDF3AABF1D21261100C65673 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF3AABE1D21261100C65673 /* ViewController.m */; };
+		EDF3AAC21D21261100C65673 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDF3AAC01D21261100C65673 /* Main.storyboard */; };
+		EDF3AAC41D21261100C65673 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDF3AAC31D21261100C65673 /* Assets.xcassets */; };
+		EDF3AAC71D21261100C65673 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDF3AAC51D21261100C65673 /* LaunchScreen.storyboard */; };
+		EDF3AAD21D21261100C65673 /* AESDESencryptionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF3AAD11D21261100C65673 /* AESDESencryptionTests.m */; };
+		EDF3AADD1D21261100C65673 /* AESDESencryptionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF3AADC1D21261100C65673 /* AESDESencryptionUITests.m */; };
+		EDF3AAF81D212B2B00C65673 /* DESEncryption.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF3AAF71D212B2B00C65673 /* DESEncryption.m */; };
+		EDF3AAFB1D212C8C00C65673 /* AESEncryption.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF3AAFA1D212C8C00C65673 /* AESEncryption.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDF3AACE1D21261100C65673 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDF3AAAC1D21261100C65673 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDF3AAB31D21261100C65673;
+			remoteInfo = AESDESencryption;
+		};
+		EDF3AAD91D21261100C65673 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDF3AAAC1D21261100C65673 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDF3AAB31D21261100C65673;
+			remoteInfo = AESDESencryption;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED87CD131D214FC7007CD4B7 /* base64Encode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = base64Encode.h; sourceTree = "<group>"; };
+		ED87CD141D214FC7007CD4B7 /* base64Encode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = base64Encode.m; sourceTree = "<group>"; };
+		EDB48B0E1D220AEE009440C9 /* RSAEncryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSAEncryption.h; sourceTree = "<group>"; };
+		EDB48B0F1D220AEE009440C9 /* RSAEncryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSAEncryption.m; sourceTree = "<group>"; };
+		EDB48B111D220B52009440C9 /* MD5Encryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MD5Encryption.h; sourceTree = "<group>"; };
+		EDB48B121D220B52009440C9 /* MD5Encryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MD5Encryption.m; sourceTree = "<group>"; };
+		EDB48B271D222003009440C9 /* private_key.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = private_key.pem; sourceTree = "<group>"; };
+		EDB48B281D222003009440C9 /* public_key.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = public_key.der; sourceTree = "<group>"; };
+		EDB48B291D222004009440C9 /* rsaCert.crt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rsaCert.crt; sourceTree = "<group>"; };
+		EDB48B2A1D222004009440C9 /* rsaerReq.csr */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rsaerReq.csr; sourceTree = "<group>"; };
+		EDB48B2B1D222004009440C9 /* private_key.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = private_key.p12; sourceTree = "<group>"; };
+		EDF3AAB41D21261100C65673 /* AESDESencryption.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AESDESencryption.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDF3AAB81D21261100C65673 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDF3AABA1D21261100C65673 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EDF3AABB1D21261100C65673 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EDF3AABD1D21261100C65673 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EDF3AABE1D21261100C65673 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EDF3AAC11D21261100C65673 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDF3AAC31D21261100C65673 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDF3AAC61D21261100C65673 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDF3AAC81D21261100C65673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDF3AACD1D21261100C65673 /* AESDESencryptionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AESDESencryptionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDF3AAD11D21261100C65673 /* AESDESencryptionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AESDESencryptionTests.m; sourceTree = "<group>"; };
+		EDF3AAD31D21261100C65673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDF3AAD81D21261100C65673 /* AESDESencryptionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AESDESencryptionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDF3AADC1D21261100C65673 /* AESDESencryptionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AESDESencryptionUITests.m; sourceTree = "<group>"; };
+		EDF3AADE1D21261100C65673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDF3AAF61D212B2B00C65673 /* DESEncryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DESEncryption.h; sourceTree = "<group>"; };
+		EDF3AAF71D212B2B00C65673 /* DESEncryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DESEncryption.m; sourceTree = "<group>"; };
+		EDF3AAF91D212C8C00C65673 /* AESEncryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AESEncryption.h; sourceTree = "<group>"; };
+		EDF3AAFA1D212C8C00C65673 /* AESEncryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AESEncryption.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDF3AAB11D21261100C65673 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF3AACA1D21261100C65673 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF3AAD51D21261100C65673 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDB48B311D222059009440C9 /* certificate */ = {
+			isa = PBXGroup;
+			children = (
+				EDB48B271D222003009440C9 /* private_key.pem */,
+				EDB48B281D222003009440C9 /* public_key.der */,
+				EDB48B291D222004009440C9 /* rsaCert.crt */,
+				EDB48B2A1D222004009440C9 /* rsaerReq.csr */,
+				EDB48B2B1D222004009440C9 /* private_key.p12 */,
+			);
+			name = certificate;
+			sourceTree = "<group>";
+		};
+		EDF3AAAB1D21261100C65673 = {
+			isa = PBXGroup;
+			children = (
+				EDF3AAB61D21261100C65673 /* AESDESencryption */,
+				EDF3AAD01D21261100C65673 /* AESDESencryptionTests */,
+				EDF3AADB1D21261100C65673 /* AESDESencryptionUITests */,
+				EDF3AAB51D21261100C65673 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDF3AAB51D21261100C65673 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDF3AAB41D21261100C65673 /* AESDESencryption.app */,
+				EDF3AACD1D21261100C65673 /* AESDESencryptionTests.xctest */,
+				EDF3AAD81D21261100C65673 /* AESDESencryptionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDF3AAB61D21261100C65673 /* AESDESencryption */ = {
+			isa = PBXGroup;
+			children = (
+				EDB48B311D222059009440C9 /* certificate */,
+				EDF3AABA1D21261100C65673 /* AppDelegate.h */,
+				EDF3AABB1D21261100C65673 /* AppDelegate.m */,
+				EDF3AABD1D21261100C65673 /* ViewController.h */,
+				EDF3AABE1D21261100C65673 /* ViewController.m */,
+				EDF3AAC01D21261100C65673 /* Main.storyboard */,
+				EDF3AAC31D21261100C65673 /* Assets.xcassets */,
+				EDF3AAC51D21261100C65673 /* LaunchScreen.storyboard */,
+				EDF3AAC81D21261100C65673 /* Info.plist */,
+				EDF3AAB71D21261100C65673 /* Supporting Files */,
+				EDF3AAF61D212B2B00C65673 /* DESEncryption.h */,
+				EDF3AAF71D212B2B00C65673 /* DESEncryption.m */,
+				EDF3AAF91D212C8C00C65673 /* AESEncryption.h */,
+				EDF3AAFA1D212C8C00C65673 /* AESEncryption.m */,
+				ED87CD131D214FC7007CD4B7 /* base64Encode.h */,
+				ED87CD141D214FC7007CD4B7 /* base64Encode.m */,
+				EDB48B0E1D220AEE009440C9 /* RSAEncryption.h */,
+				EDB48B0F1D220AEE009440C9 /* RSAEncryption.m */,
+				EDB48B111D220B52009440C9 /* MD5Encryption.h */,
+				EDB48B121D220B52009440C9 /* MD5Encryption.m */,
+			);
+			path = AESDESencryption;
+			sourceTree = "<group>";
+		};
+		EDF3AAB71D21261100C65673 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDF3AAB81D21261100C65673 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EDF3AAD01D21261100C65673 /* AESDESencryptionTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDF3AAD11D21261100C65673 /* AESDESencryptionTests.m */,
+				EDF3AAD31D21261100C65673 /* Info.plist */,
+			);
+			path = AESDESencryptionTests;
+			sourceTree = "<group>";
+		};
+		EDF3AADB1D21261100C65673 /* AESDESencryptionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EDF3AADC1D21261100C65673 /* AESDESencryptionUITests.m */,
+				EDF3AADE1D21261100C65673 /* Info.plist */,
+			);
+			path = AESDESencryptionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDF3AAB31D21261100C65673 /* AESDESencryption */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDF3AAE11D21261100C65673 /* Build configuration list for PBXNativeTarget "AESDESencryption" */;
+			buildPhases = (
+				EDF3AAB01D21261100C65673 /* Sources */,
+				EDF3AAB11D21261100C65673 /* Frameworks */,
+				EDF3AAB21D21261100C65673 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AESDESencryption;
+			productName = AESDESencryption;
+			productReference = EDF3AAB41D21261100C65673 /* AESDESencryption.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDF3AACC1D21261100C65673 /* AESDESencryptionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDF3AAE41D21261100C65673 /* Build configuration list for PBXNativeTarget "AESDESencryptionTests" */;
+			buildPhases = (
+				EDF3AAC91D21261100C65673 /* Sources */,
+				EDF3AACA1D21261100C65673 /* Frameworks */,
+				EDF3AACB1D21261100C65673 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDF3AACF1D21261100C65673 /* PBXTargetDependency */,
+			);
+			name = AESDESencryptionTests;
+			productName = AESDESencryptionTests;
+			productReference = EDF3AACD1D21261100C65673 /* AESDESencryptionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDF3AAD71D21261100C65673 /* AESDESencryptionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDF3AAE71D21261100C65673 /* Build configuration list for PBXNativeTarget "AESDESencryptionUITests" */;
+			buildPhases = (
+				EDF3AAD41D21261100C65673 /* Sources */,
+				EDF3AAD51D21261100C65673 /* Frameworks */,
+				EDF3AAD61D21261100C65673 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDF3AADA1D21261100C65673 /* PBXTargetDependency */,
+			);
+			name = AESDESencryptionUITests;
+			productName = AESDESencryptionUITests;
+			productReference = EDF3AAD81D21261100C65673 /* AESDESencryptionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDF3AAAC1D21261100C65673 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = zzw;
+				TargetAttributes = {
+					EDF3AAB31D21261100C65673 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					EDF3AACC1D21261100C65673 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = EDF3AAB31D21261100C65673;
+					};
+					EDF3AAD71D21261100C65673 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = EDF3AAB31D21261100C65673;
+					};
+				};
+			};
+			buildConfigurationList = EDF3AAAF1D21261100C65673 /* Build configuration list for PBXProject "AESDESencryption" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDF3AAAB1D21261100C65673;
+			productRefGroup = EDF3AAB51D21261100C65673 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDF3AAB31D21261100C65673 /* AESDESencryption */,
+				EDF3AACC1D21261100C65673 /* AESDESencryptionTests */,
+				EDF3AAD71D21261100C65673 /* AESDESencryptionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDF3AAB21D21261100C65673 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF3AAC71D21261100C65673 /* LaunchScreen.storyboard in Resources */,
+				EDF3AAC41D21261100C65673 /* Assets.xcassets in Resources */,
+				EDB48B2E1D222004009440C9 /* rsaCert.crt in Resources */,
+				EDB48B301D222004009440C9 /* private_key.p12 in Resources */,
+				EDB48B2C1D222004009440C9 /* private_key.pem in Resources */,
+				EDF3AAC21D21261100C65673 /* Main.storyboard in Resources */,
+				EDB48B2D1D222004009440C9 /* public_key.der in Resources */,
+				EDB48B2F1D222004009440C9 /* rsaerReq.csr in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF3AACB1D21261100C65673 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF3AAD61D21261100C65673 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDF3AAB01D21261100C65673 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED87CD151D214FC7007CD4B7 /* base64Encode.m in Sources */,
+				EDF3AAFB1D212C8C00C65673 /* AESEncryption.m in Sources */,
+				EDF3AAF81D212B2B00C65673 /* DESEncryption.m in Sources */,
+				EDB48B131D220B52009440C9 /* MD5Encryption.m in Sources */,
+				EDB48B101D220AEE009440C9 /* RSAEncryption.m in Sources */,
+				EDF3AABF1D21261100C65673 /* ViewController.m in Sources */,
+				EDF3AABC1D21261100C65673 /* AppDelegate.m in Sources */,
+				EDF3AAB91D21261100C65673 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF3AAC91D21261100C65673 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF3AAD21D21261100C65673 /* AESDESencryptionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF3AAD41D21261100C65673 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF3AADD1D21261100C65673 /* AESDESencryptionUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDF3AACF1D21261100C65673 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDF3AAB31D21261100C65673 /* AESDESencryption */;
+			targetProxy = EDF3AACE1D21261100C65673 /* PBXContainerItemProxy */;
+		};
+		EDF3AADA1D21261100C65673 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDF3AAB31D21261100C65673 /* AESDESencryption */;
+			targetProxy = EDF3AAD91D21261100C65673 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDF3AAC01D21261100C65673 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDF3AAC11D21261100C65673 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDF3AAC51D21261100C65673 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDF3AAC61D21261100C65673 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDF3AADF1D21261100C65673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EDF3AAE01D21261100C65673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDF3AAE21D21261100C65673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				INFOPLIST_FILE = AESDESencryption/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AESDESencryption;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EDF3AAE31D21261100C65673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				INFOPLIST_FILE = AESDESencryption/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AESDESencryption;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EDF3AAE51D21261100C65673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AESDESencryptionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AESDESencryptionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AESDESencryption.app/AESDESencryption";
+			};
+			name = Debug;
+		};
+		EDF3AAE61D21261100C65673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AESDESencryptionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AESDESencryptionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AESDESencryption.app/AESDESencryption";
+			};
+			name = Release;
+		};
+		EDF3AAE81D21261100C65673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AESDESencryptionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AESDESencryptionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AESDESencryption;
+			};
+			name = Debug;
+		};
+		EDF3AAE91D21261100C65673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AESDESencryptionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AESDESencryptionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AESDESencryption;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDF3AAAF1D21261100C65673 /* Build configuration list for PBXProject "AESDESencryption" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF3AADF1D21261100C65673 /* Debug */,
+				EDF3AAE01D21261100C65673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDF3AAE11D21261100C65673 /* Build configuration list for PBXNativeTarget "AESDESencryption" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF3AAE21D21261100C65673 /* Debug */,
+				EDF3AAE31D21261100C65673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDF3AAE41D21261100C65673 /* Build configuration list for PBXNativeTarget "AESDESencryptionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF3AAE51D21261100C65673 /* Debug */,
+				EDF3AAE61D21261100C65673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDF3AAE71D21261100C65673 /* Build configuration list for PBXNativeTarget "AESDESencryptionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF3AAE81D21261100C65673 /* Debug */,
+				EDF3AAE91D21261100C65673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDF3AAAC1D21261100C65673 /* Project object */;
+}
